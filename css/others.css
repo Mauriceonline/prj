@@ -1,17 +1,43 @@
-.others{
+.others {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  margin-top: 60px;
+}
+
+.others video {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  background: #000;
+}
+body{
+  background-color: black;
+}
+/*.others{
   margin-top: 60px;
   display:flex;
   flex-wrap: wrap;
   margin-left: 20px;
   margin-right: 10px;
+  position:relative;
+  align-items: center;
 }
-.others img{
-  width:100px;
-  height:125px;
+.others video{
+  width:200px;
   margin-top: 5px;
-  margin-right: 15px;
-  margin-bottom: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 body{
   background-color: black;
+}
+.others > div{
+  position:relative;
+}
+.others video{
+  
 }

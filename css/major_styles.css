@@ -1,5 +1,5 @@
 .navbar{
-  background-color:black;
+  background-color:rgb(29, 29, 32);
   display:flex;
   margin:0px;
   padding:10px;
@@ -73,4 +73,35 @@ img{
 .sb::placeholder{
   font-size: 10px;
   
+}
+/* Responsive styles for mobile devices */
+@media (max-width: 600px) {
+  .navbar, .button {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .navbar .header {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .button > div {
+    margin-bottom: 10px;
+  }
+
+  .welcome {
+    padding: 10px;
+    font-size: 1em;
+  }
+
+  ul, p {
+    font-size: 1em;
+  }
+
+  img, video {
+    max-width: 100%;
+    height: auto;
+  }
 }
