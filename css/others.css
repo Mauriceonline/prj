@@ -1,0 +1,17 @@
+.others{
+  margin-top: 60px;
+  display:flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.others img{
+  width:100px;
+  height:125px;
+  margin-top: 5px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+body{
+  background-color: black;
+}
