@@ -105,3 +105,35 @@ img{
     height: auto;
   }
 }
+  /* Styles for laptop and larger screens */
+@media (min-width: 1024px) {
+  .navbar, .button {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .navbar .header {
+    font-size: 2em;
+    text-align: left;
+    margin-bottom: 0;
+  }
+
+  .button > div {
+    margin-bottom: 0;
+    margin-right: 20px;
+  }
+
+  .welcome {
+    padding: 40px 80px;
+    font-size: 1.2em;
+  }
+
+  ul, p {
+    font-size: 1.1em;
+  }
+
+  img, video {
+    max-width: 300px;
+    height: auto;
+  }
+}
